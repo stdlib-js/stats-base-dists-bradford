@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-22)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -64,6 +64,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`48cbb5c`](https://github.com/stdlib-js/stdlib/commit/48cbb5ce2be9a5a371c6e245c4556b52ec7ac3d7) - **feat:** add `bradford` distribution namespace _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -96,16 +97,16 @@ A total of 3 issues were closed in this release:
 -   [`1acbc66`](https://github.com/stdlib-js/stdlib/commit/1acbc66006c70ed6d23ea1abd4307da4b9b9235b) - **feat:** add C implementation for `stats/base/dists/bradford/entropy` _(by Philipp Burckhardt)_
 -   [`f9ed054`](https://github.com/stdlib-js/stdlib/commit/f9ed05408e320ec9c68f4abe374e95ad0fed0b63) - **feat:** add C implementation for `stats/base/dists/bradford/stdev` _(by Philipp Burckhardt)_
 -   [`94efaa4`](https://github.com/stdlib-js/stdlib/commit/94efaa41dbcf4719bff4fd4bb73ed1a22204716e) - **feat:** add C implementation for `stats/base/dists/bradford/variance` _(by Philipp Burckhardt)_
--   [`fe60f20`](https://github.com/stdlib-js/stdlib/commit/fe60f203dd58e075e075d8cc8751216b66314fc9) - **chore:** adds `opts` [(#6908)](https://github.com/stdlib-js/stdlib/pull/6908) _(by Harsh)_
--   [`a594d58`](https://github.com/stdlib-js/stdlib/commit/a594d58d530900e5f90dab88494520c09f01ee35) - **chore:** adds `opts` [(#6909)](https://github.com/stdlib-js/stdlib/pull/6909) _(by Harsh)_
--   [`e991da9`](https://github.com/stdlib-js/stdlib/commit/e991da93b36805cf0705e9a9625f06b9c2e44173) - **docs:** replace manual `for` loop in examples [(#6906)](https://github.com/stdlib-js/stdlib/pull/6906) _(by Harsh)_
--   [`379390a`](https://github.com/stdlib-js/stdlib/commit/379390a688ef3f94fb7a2dfdfbfbd940bd1cb28a) - **docs:** replace manual `for` loop in examples [(#6907)](https://github.com/stdlib-js/stdlib/pull/6907) _(by Harsh)_
+-   [`fe60f20`](https://github.com/stdlib-js/stdlib/commit/fe60f203dd58e075e075d8cc8751216b66314fc9) - **chore:** adds `opts` [(#6908)](https://github.com/stdlib-js/stdlib/pull/6908) _(by Harsh Yadav)_
+-   [`a594d58`](https://github.com/stdlib-js/stdlib/commit/a594d58d530900e5f90dab88494520c09f01ee35) - **chore:** adds `opts` [(#6909)](https://github.com/stdlib-js/stdlib/pull/6909) _(by Harsh Yadav)_
+-   [`e991da9`](https://github.com/stdlib-js/stdlib/commit/e991da93b36805cf0705e9a9625f06b9c2e44173) - **docs:** replace manual `for` loop in examples [(#6906)](https://github.com/stdlib-js/stdlib/pull/6906) _(by Harsh Yadav)_
+-   [`379390a`](https://github.com/stdlib-js/stdlib/commit/379390a688ef3f94fb7a2dfdfbfbd940bd1cb28a) - **docs:** replace manual `for` loop in examples [(#6907)](https://github.com/stdlib-js/stdlib/pull/6907) _(by Harsh Yadav)_
 -   [`2bd92b9`](https://github.com/stdlib-js/stdlib/commit/2bd92b9ec557e1e5504abbdfe5d08f03966514b2) - **docs(bradford):** update readme to fix typo [(#5929)](https://github.com/stdlib-js/stdlib/pull/5929) _(by Haroon Rasheed)_
 -   [`1949944`](https://github.com/stdlib-js/stdlib/commit/19499442b3eeaa0ad9efc5b91a76538dcc45a18d) - **feat:** add `stats/base/dists/bradford/pdf` [(#5280)](https://github.com/stdlib-js/stdlib/pull/5280) _(by Karan Anand)_
 -   [`ba14f27`](https://github.com/stdlib-js/stdlib/commit/ba14f27dc87766c75bc71eb63a858b4db6614740) - **docs:** fix example values in `stats/base/dists/bradford/quantile` [(#5846)](https://github.com/stdlib-js/stdlib/pull/5846) _(by Karan Anand)_
 -   [`077d03c`](https://github.com/stdlib-js/stdlib/commit/077d03c9b5f1685bc933fd143ee7cb8db25957b0) - **chore:** remove duplicate keywords [(#5845)](https://github.com/stdlib-js/stdlib/pull/5845) _(by Karan Anand)_
 -   [`b2b2c84`](https://github.com/stdlib-js/stdlib/commit/b2b2c8452743fd7096114ec524524b8d0b817ab4) - **feat:** add `stats/base/dists/bradford/quantile` [(#5295)](https://github.com/stdlib-js/stdlib/pull/5295) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
--   [`0622cf1`](https://github.com/stdlib-js/stdlib/commit/0622cf1018078943f26ea1cdadefc448f0038649) - **docs:** fix line wrapping [(#5389)](https://github.com/stdlib-js/stdlib/pull/5389) _(by fadiothman22)_
+-   [`0622cf1`](https://github.com/stdlib-js/stdlib/commit/0622cf1018078943f26ea1cdadefc448f0038649) - **docs:** fix line wrapping [(#5389)](https://github.com/stdlib-js/stdlib/pull/5389) _(by Fadio)_
 -   [`e8330ca`](https://github.com/stdlib-js/stdlib/commit/e8330cabf96e29b8dbd5736604077809eede9f15) - **feat:** add `stats/base/dists/bradford/entropy` [(#5324)](https://github.com/stdlib-js/stdlib/pull/5324) _(by Karan Anand)_
 -   [`eb61ba4`](https://github.com/stdlib-js/stdlib/commit/eb61ba42a289f290c5500d0e0eacfca960c44700) - **feat:** add `stats/base/dists/bradford/cdf` [(#5282)](https://github.com/stdlib-js/stdlib/pull/5282) _(by Karan Anand, Philipp Burckhardt)_
 -   [`1ca8479`](https://github.com/stdlib-js/stdlib/commit/1ca8479513b640e6381d9e254a98538c4bc3970e) - **feat:** add `stats/base/dists/bradford/stdev` [(#5333)](https://github.com/stdlib-js/stdlib/pull/5333) _(by Karan Anand)_
@@ -128,12 +129,12 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 -   Anmol Sah
 -   Athan Reines
+-   Fadio
 -   Haroon Rasheed
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 -   Vivek Maurya
--   fadiothman22
 
 </section>
 
