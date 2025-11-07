@@ -35,38 +35,32 @@ limitations under the License.
 
 > Bradford distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-bradford
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-bradford = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var bradford = require( 'path/to/vendor/umd/stats-base-dists-bradford/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.bradford;
-})();
-</script>
+var bradford = require( '@stdlib/stats-base-dists-bradford' );
 ```
 
 #### bradford
@@ -84,9 +78,9 @@ The namespace contains the following distribution functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`cdf( x, c )`][@stdlib/stats/base/dists/bradford/cdf]</span><span class="delimiter">: </span><span class="description">Bradford distribution cumulative distribution function.</span>
--   <span class="signature">[`pdf( x, c )`][@stdlib/stats/base/dists/bradford/pdf]</span><span class="delimiter">: </span><span class="description">Bradford distribution probability density function (PDF).</span>
--   <span class="signature">[`quantile( p, c )`][@stdlib/stats/base/dists/bradford/quantile]</span><span class="delimiter">: </span><span class="description">Bradford distribution quantile function.</span>
+-   <span class="signature">[`cdf( x, c )`][@stdlib/stats/base/dists/bradford/cdf]</span><span class="delimiter">: </span><span class="description">bradford distribution cumulative distribution function (CDF).</span>
+-   <span class="signature">[`pdf( x, c )`][@stdlib/stats/base/dists/bradford/pdf]</span><span class="delimiter">: </span><span class="description">bradford distribution probability density function (PDF).</span>
+-   <span class="signature">[`quantile( p, c )`][@stdlib/stats/base/dists/bradford/quantile]</span><span class="delimiter">: </span><span class="description">bradford distribution quantile function.</span>
 
 </div>
 
@@ -98,13 +92,13 @@ The namespace contains the following functions for calculating distribution prop
 
 <div class="namespace-toc">
 
--   <span class="signature">[`entropy( c )`][@stdlib/stats/base/dists/bradford/entropy]</span><span class="delimiter">: </span><span class="description">Bradford distribution differential entropy.</span>
--   <span class="signature">[`mean( c )`][@stdlib/stats/base/dists/bradford/mean]</span><span class="delimiter">: </span><span class="description">Bradford distribution expected value.</span>
--   <span class="signature">[`median( c )`][@stdlib/stats/base/dists/bradford/median]</span><span class="delimiter">: </span><span class="description">Bradford distribution median.</span>
--   <span class="signature">[`mode( c )`][@stdlib/stats/base/dists/bradford/mode]</span><span class="delimiter">: </span><span class="description">Bradford distribution mode.</span>
--   <span class="signature">[`skewness( c )`][@stdlib/stats/base/dists/bradford/skewness]</span><span class="delimiter">: </span><span class="description">Bradford distribution skewness.</span>
--   <span class="signature">[`stdev( c )`][@stdlib/stats/base/dists/bradford/stdev]</span><span class="delimiter">: </span><span class="description">Bradford distribution standard deviation.</span>
--   <span class="signature">[`variance( c )`][@stdlib/stats/base/dists/bradford/variance]</span><span class="delimiter">: </span><span class="description">Bradford distribution variance.</span>
+-   <span class="signature">[`entropy( c )`][@stdlib/stats/base/dists/bradford/entropy]</span><span class="delimiter">: </span><span class="description">bradford distribution differential entropy.</span>
+-   <span class="signature">[`mean( c )`][@stdlib/stats/base/dists/bradford/mean]</span><span class="delimiter">: </span><span class="description">bradford distribution expected value.</span>
+-   <span class="signature">[`median( c )`][@stdlib/stats/base/dists/bradford/median]</span><span class="delimiter">: </span><span class="description">bradford distribution median.</span>
+-   <span class="signature">[`mode( c )`][@stdlib/stats/base/dists/bradford/mode]</span><span class="delimiter">: </span><span class="description">bradford distribution mode.</span>
+-   <span class="signature">[`skewness( c )`][@stdlib/stats/base/dists/bradford/skewness]</span><span class="delimiter">: </span><span class="description">bradford distribution skewness.</span>
+-   <span class="signature">[`stdev( c )`][@stdlib/stats/base/dists/bradford/stdev]</span><span class="delimiter">: </span><span class="description">bradford distribution standard deviation.</span>
+-   <span class="signature">[`variance( c )`][@stdlib/stats/base/dists/bradford/variance]</span><span class="delimiter">: </span><span class="description">bradford distribution variance.</span>
 
 </div>
 
@@ -120,13 +114,8 @@ The namespace contains the following functions for calculating distribution prop
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var bradford = require( '@stdlib/stats-base-dists-bradford' );
 
 /*
 * The Bradford distribution is defined over [0,1] with shape parameter c.
@@ -173,11 +162,6 @@ var skew = bradford.skewness( c );
 // Compute the mode:
 var mode = bradford.mode( c );
 // returns 0.0
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -268,25 +252,25 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/bradford/cdf]: https://github.com/stdlib-js/stats-base-dists-bradford-cdf/tree/umd
+[@stdlib/stats/base/dists/bradford/entropy]: https://github.com/stdlib-js/stats-base-dists-bradford-entropy
 
-[@stdlib/stats/base/dists/bradford/entropy]: https://github.com/stdlib-js/stats-base-dists-bradford-entropy/tree/umd
+[@stdlib/stats/base/dists/bradford/mean]: https://github.com/stdlib-js/stats-base-dists-bradford-mean
 
-[@stdlib/stats/base/dists/bradford/mean]: https://github.com/stdlib-js/stats-base-dists-bradford-mean/tree/umd
+[@stdlib/stats/base/dists/bradford/median]: https://github.com/stdlib-js/stats-base-dists-bradford-median
 
-[@stdlib/stats/base/dists/bradford/median]: https://github.com/stdlib-js/stats-base-dists-bradford-median/tree/umd
+[@stdlib/stats/base/dists/bradford/mode]: https://github.com/stdlib-js/stats-base-dists-bradford-mode
 
-[@stdlib/stats/base/dists/bradford/mode]: https://github.com/stdlib-js/stats-base-dists-bradford-mode/tree/umd
+[@stdlib/stats/base/dists/bradford/skewness]: https://github.com/stdlib-js/stats-base-dists-bradford-skewness
 
-[@stdlib/stats/base/dists/bradford/pdf]: https://github.com/stdlib-js/stats-base-dists-bradford-pdf/tree/umd
+[@stdlib/stats/base/dists/bradford/stdev]: https://github.com/stdlib-js/stats-base-dists-bradford-stdev
 
-[@stdlib/stats/base/dists/bradford/quantile]: https://github.com/stdlib-js/stats-base-dists-bradford-quantile/tree/umd
+[@stdlib/stats/base/dists/bradford/variance]: https://github.com/stdlib-js/stats-base-dists-bradford-variance
 
-[@stdlib/stats/base/dists/bradford/skewness]: https://github.com/stdlib-js/stats-base-dists-bradford-skewness/tree/umd
+[@stdlib/stats/base/dists/bradford/cdf]: https://github.com/stdlib-js/stats-base-dists-bradford-cdf
 
-[@stdlib/stats/base/dists/bradford/stdev]: https://github.com/stdlib-js/stats-base-dists-bradford-stdev/tree/umd
+[@stdlib/stats/base/dists/bradford/pdf]: https://github.com/stdlib-js/stats-base-dists-bradford-pdf
 
-[@stdlib/stats/base/dists/bradford/variance]: https://github.com/stdlib-js/stats-base-dists-bradford-variance/tree/umd
+[@stdlib/stats/base/dists/bradford/quantile]: https://github.com/stdlib-js/stats-base-dists-bradford-quantile
 
 <!-- </toc-links> -->
 
