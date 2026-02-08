@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bradford from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@deno/mod.js';
+import bradford from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { cdf, entropy, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@deno/mod.js';
+import { cdf, entropy, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@v0.1.1-deno/mod.js';
 ```
 
 #### bradford
@@ -103,7 +103,7 @@ The namespace contains the following functions for calculating distribution prop
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import bradford from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@deno/mod.js';
+import bradford from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bradford@v0.1.1-deno/mod.js';
 
 /*
 * The Bradford distribution is defined over [0,1] with shape parameter c.
