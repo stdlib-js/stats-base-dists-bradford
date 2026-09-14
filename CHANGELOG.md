@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-26)
+## Unreleased (2026-09-14)
 
 <section class="commits">
 
@@ -12,6 +12,11 @@
 
 <details>
 
+-   [`10a84e4`](https://github.com/stdlib-js/stdlib/commit/10a84e4c9eed0d45927561f7998027339061cae3) - **chore:** clean-up [(#15165)](https://github.com/stdlib-js/stdlib/pull/15165) _(by Philipp Burckhardt)_
+-   [`af935ef`](https://github.com/stdlib-js/stdlib/commit/af935efef94d96d0673a92a7165428ad4c6d6ce3) - **test:** migrate `stats/base/dists/bradford/pdf` to ULP-based assertions [(#15153)](https://github.com/stdlib-js/stdlib/pull/15153) _(by Athan Reines)_
+-   [`2efc2d4`](https://github.com/stdlib-js/stdlib/commit/2efc2d41e04aa925d10f6e849948155fb94382fe) - **test:** migrate `stats/base/dists/bradford/quantile` to ULP-based assertions [(#14923)](https://github.com/stdlib-js/stdlib/pull/14923) _(by Athan Reines)_
+-   [`dac951c`](https://github.com/stdlib-js/stdlib/commit/dac951cf0743628e72910f96b10aa94b6255bd0c) - **test:** migrate `stats/base/dists/bradford/median` to ULP-based assertions [(#14586)](https://github.com/stdlib-js/stdlib/pull/14586) _(by Athan Reines)_
+-   [`63391c6`](https://github.com/stdlib-js/stdlib/commit/63391c6527adc6665c079bb333b57743a7e244f0) - **test:** migrate `stats/base/dists/bradford/cdf` to ULP-based assertions  [(#14401)](https://github.com/stdlib-js/stdlib/pull/14401) _(by Athan Reines)_
 -   [`112dcfc`](https://github.com/stdlib-js/stdlib/commit/112dcfcf5333be07ec3986193a011220762a0591) - **docs:** fix string interpolation and missing JSDoc annotations [(#13284)](https://github.com/stdlib-js/stdlib/pull/13284) _(by Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`fba0af3`](https://github.com/stdlib-js/stdlib/commit/fba0af3d48d889ebd262a0c135238961004ac9fa) - **refactor:** use a function wrapper for native binding [(#13002)](https://github.com/stdlib-js/stdlib/pull/13002) _(by Philipp Burckhardt)_
