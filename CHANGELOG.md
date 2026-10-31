@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-14)
+## Unreleased (2026-10-31)
 
 <section class="commits">
 
@@ -12,6 +12,18 @@
 
 <details>
 
+-   [`e2a77ec`](https://github.com/stdlib-js/stdlib/commit/e2a77ec64c3b817185334570f41dfc68a5a75a50) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
+-   [`ee0f8b8`](https://github.com/stdlib-js/stdlib/commit/ee0f8b81c2f2a317660ec9b8296516037cc66e3d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`ea33a97`](https://github.com/stdlib-js/stdlib/commit/ea33a97f17b445e4671c3e30c3680e81e411dc8f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`dc56a79`](https://github.com/stdlib-js/stdlib/commit/dc56a7995edf69ba19eb1c83c45a16efebee205b) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`8671d2a`](https://github.com/stdlib-js/stdlib/commit/8671d2ad524570f6f9af8f4aead6a9faaa4683b8) - **test:** migrate `stats/base/dists/bradford/variance` to ULP-based assertions [(#15528)](https://github.com/stdlib-js/stdlib/pull/15528) _(by Philipp Burckhardt)_
+-   [`27b070d`](https://github.com/stdlib-js/stdlib/commit/27b070dd566f397ad5e5da2103e55906863e5b57) - **chore:** clean-up [(#15517)](https://github.com/stdlib-js/stdlib/pull/15517) _(by Philipp Burckhardt, Athan Reines)_
+-   [`696ff33`](https://github.com/stdlib-js/stdlib/commit/696ff33c6408a99d389abc1bbf3b09fc03da5bbc) - **test:** migrate `stats/base/dists/bradford/stdev` to ULP-based assertions [(#15332)](https://github.com/stdlib-js/stdlib/pull/15332) _(by Aryan kumar)_
+-   [`a3e3463`](https://github.com/stdlib-js/stdlib/commit/a3e346300a2855a4a1bfb48c31f588db0f515121) - **style:** add whitespace [(#15394)](https://github.com/stdlib-js/stdlib/pull/15394) _(by Philipp Burckhardt)_
+-   [`f6cb356`](https://github.com/stdlib-js/stdlib/commit/f6cb3560299ee2838210202d0ac3a3773e2c0694) - **test:** migrate `stats/base/dists/bradford/skewness` to ULP-based assertions [(#15281)](https://github.com/stdlib-js/stdlib/pull/15281) _(by Aryan kumar)_
+-   [`bb0b30f`](https://github.com/stdlib-js/stdlib/commit/bb0b30f7dc1b987aa49888c194d2b9d6812b824f) - **test:** migrate `stats/base/dists/bradford/entropy` to ULP-based assertions [(#15294)](https://github.com/stdlib-js/stdlib/pull/15294) _(by Philipp Burckhardt)_
+-   [`5fd9c03`](https://github.com/stdlib-js/stdlib/commit/5fd9c03cdc49a648b8cd9d8463988969d9307f8b) - **test:** migrate `stats/base/dists/bradford/mean` to ULP-based assertions [(#15248)](https://github.com/stdlib-js/stdlib/pull/15248) _(by Athan Reines)_
 -   [`10a84e4`](https://github.com/stdlib-js/stdlib/commit/10a84e4c9eed0d45927561f7998027339061cae3) - **chore:** clean-up [(#15165)](https://github.com/stdlib-js/stdlib/pull/15165) _(by Philipp Burckhardt)_
 -   [`af935ef`](https://github.com/stdlib-js/stdlib/commit/af935efef94d96d0673a92a7165428ad4c6d6ce3) - **test:** migrate `stats/base/dists/bradford/pdf` to ULP-based assertions [(#15153)](https://github.com/stdlib-js/stdlib/pull/15153) _(by Athan Reines)_
 -   [`2efc2d4`](https://github.com/stdlib-js/stdlib/commit/2efc2d41e04aa925d10f6e849948155fb94382fe) - **test:** migrate `stats/base/dists/bradford/quantile` to ULP-based assertions [(#14923)](https://github.com/stdlib-js/stdlib/pull/14923) _(by Athan Reines)_
@@ -33,8 +45,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
